@@ -28,7 +28,7 @@ public class Animal {
     }
 
     public void giveVoice(String str) {
-        System.out.println("Moj głos ....");
+        System.out.println("Moj głos ...." + str);
     }
 
     @Override

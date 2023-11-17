@@ -15,8 +15,8 @@ public class Cat extends Animal {
     }
 
     @Override
-    public void giveVoice(String str) {
-        str = "miau miau";
+    public void giveVoice() {
+        String  str = "miau miau";
         super.giveVoice(str);
     }
 }
